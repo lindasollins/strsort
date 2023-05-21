@@ -1,0 +1,12 @@
+import java.util.Arrays;
+
+public class StringArraySort {
+    public static void main(String[] args) {
+        String[] strings = {"apple", "banana", "orange", "cherry"};
+        Arrays.sort(strings);
+        System.out.println("Отсортированный массив строк:");
+        for (String str : strings) {
+            System.out.println(str);
+        }
+    }
+}
